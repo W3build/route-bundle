@@ -1,0 +1,26 @@
+{
+    "name": "w3build/route-bundle",
+    "type": "library",
+    "description": "W3build route bundle",
+    "keywords": [],
+    "homepage": "http://w3build.cz",
+    "license": "EULA",
+    "authors": [
+        {
+            "name": "Lukáš Jahoda",
+            "email": "lukas.jahoda@w3build.cz"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "2.3.*",
+        "symfony/assetic-bundle": "2.3.*",
+        "symfony/monolog-bundle": "2.4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "W3build\\RouteBundle": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
